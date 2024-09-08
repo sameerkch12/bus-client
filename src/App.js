@@ -25,6 +25,8 @@ function App() {
   return (
     <div className="flex flex-col items-center p-4 font-sans">
       <h1 className="text-2xl font-bold mb-4">Parcel Booking</h1>
+      <h1>Durg</h1>
+      <h1>Raipur</h1>
       <form onSubmit={handleSubmit} className="flex flex-col w-full max-w-md gap-4">
         <input 
           type="text" 
